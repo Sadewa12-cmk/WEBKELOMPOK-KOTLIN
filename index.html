@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KOTLIN — Portofolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar__inner">
+    <a href="#home" class="logo">
+      <span class="logo__mark">
+        <img src="asset/logo.jpg" alt="Logo">
+      </span>
+      <span class="logo__text">Kelompok<br>Kami</span>
+    </a>
+
+    <button class="navbar__toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navbar__menu" id="navMenu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#portofolio" class="nav-link">Portofolio</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="home" class="section hero">
+    <div class="hero__inner">
+
+
+      <div class="hero__content">
+        <span class="eyebrow">Tentang Kelompok</span>
+        <h1 class="hero__title">Kami adalah<br><span class="accent">"KOTLIN"</span></h1>
+        <p class="hero__desc">
+          Nama kelompok kami adalah "KOTLIN" yang merupakan bahasa pemrograman modern, terbuka (open-source), dan berjenis pengetikan statis (statically typed) yang berjalan di atas Java Virtual Machine (JVM) serta dikembangkan oleh JetBrains.
+          Dan di dalam Kelompok ini ada sekumpulan Mahasiswa yang sedang berproses mengembangkan web development skill, melalui HTML, CSS dan JavaSript.
+        </p>
+
+        <h2 class="hero__members-title">Anggota Kelompok:</h2>
+
+        <ul class="hero__members">
+          
+          <li>
+            <span class="hero__members-name">M. Wahyu Maulana Sadewa</span>
+            <span class="hero__members-role">Ketua</span>
+          </li>
+          <li>
+            <span class="hero__members-name">Muhammad Ali Musthofa</span>
+            <span class="hero__members-role">Anggota</span>
+          </li>
+          <li>
+            <span class="hero__members-name">Althafa Hafizh M</span>
+            <span class="hero__members-role">Anggota</span>
+          </li>
+          <li>
+            <span class="hero__members-name">Dita Elwalidia</span>
+            <span class="hero__members-role">Anggota</span>
+          </li>
+          <li>
+            <span class="hero__members-name">Marici Zada Eka Rahardja</span>
+            <span class="hero__members-role">Anggota</span>
+          </li>
+          <li>
+            <span class="hero__members-name">Ovi Indri Primastya</span>
+            <span class="hero__members-role">Anggota</span>
+          </li>
+          <li>
+            <span class="hero__members-name">Pramesty Citra Meisya B</span>
+            <span class="hero__members-role">Anggota</span>
+          </li>
+        </ul>
+
+        <a href="#portofolio" class="btn">Lihat Portofolio →</a>
+      </div>
+
+      <div class="hero__media">
+        <div class="hero__photo-frame">
+          <img src="https://placehold.co/560x680/131B2E/EDEFF3?text=Foto+Kelompok" alt="Foto kelompok" class="hero__photo">
+          <span class="hero__photo-tag">Angkatan 2026</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="portofolio" class="section portfolio">
+    <div class="section__header">
+      <span class="eyebrow">Hasil Kerja</span>
+      <h2 class="section__title">Portofolio &amp; Sertifikasi</h2>
+      <p class="section__desc">Klik kartu anggota untuk melihat proyek dan sertifikat masing-masing.</p>
+    </div>
+
+    <div class="portfolio__grid">
+
+      <a href="sertifikasi/dewa.html" class="member-card">
+        <div class="member-card__avatar">
+          <img src="asset/foto.dewa.jpg" alt="Foto M. Wahyu Maulana Sadewa">
+        </div>
+        <h3 class="member-card__name">M. Wahyu Maulana Sadewa</h3>
+        <span class="member-card__role">Ketua</span>
+        <span class="member-card__cta">Lihat portofolio →</span>
+      </a>
+
+      <a href="sertifikasi/ali.html" class="member-card">
+        <div class="member-card__avatar">
+          <img src="asset/foto.ali.jpg" alt="Foto Muhammad Ali Musthofa">
+        </div>
+        <h3 class="member-card__name">Muhammad Ali Musthofa</h3>
+        <span class="member-card__role">Anggota</span>
+        <span class="member-card__cta">Lihat portofolio →</span>
+      </a>
+
+      <a href="sertifikasi/althafa.html" class="member-card">
+        <div class="member-card__avatar member-card__avatar--initial">
+          <img src="asset/foto.althafa.jpg" alt="Foto Althafa Hafizh M">
+        </div>
+        <h3 class="member-card__name">Althafa Hafizh M</h3>
+        <span class="member-card__role">Anggota</span>
+        <span class="member-card__cta">Lihat portofolio →</span>
+      </a>
+
+      <a href="sertifikasi/dita.html" class="member-card">
+        <div class="member-card__avatar">
+          <img src="asset/foto.dita.jpg" alt="Foto Dita Elwalidia">
+        </div>
+        <h3 class="member-card__name">Dita Elwalidia</h3>
+        <span class="member-card__role">Anggota</span>
+        <span class="member-card__cta">Lihat portofolio →</span>
+      </a>
+
+      <a href="sertifikasi/marici.html" class="member-card">
+        <div class="member-card__avatar member-card__avatar--initial">
+          <img src="asset/foto.marici.jpg" alt="Foto Marici Zada Eka Rahardja">
+        </div>
+        <h3 class="member-card__name">Marici Zada Eka Rahardja</h3>
+        <span class="member-card__role">Anggota</span>
+        <span class="member-card__cta">Lihat portofolio →</span>
+      </a>
+
+      <a href="sertifikasi/ovi.html" class="member-card">
+        <div class="member-card__avatar">
+          <img src="asset/foto.ovi.jpg" alt="Foto Ovi Indri Primastya">
+        </div>
+        <h3 class="member-card__name">Ovi Indri Primastya</h3>
+        <span class="member-card__role">Anggota</span>
+        <span class="member-card__cta">Lihat portofolio →</span>
+      </a>
+
+      <a href="sertifikasi/pramesty.html" class="member-card">
+        <div class="member-card__avatar member-card__avatar--initial">
+          <img src="asset/foto.pramesty.jpg" alt="Foto Pramesty Citra Meisya B">
+        </div>
+        <h3 class="member-card__name">Pramesty Citra Meisya B</h3>
+        <span class="member-card__role">Anggota</span>
+        <span class="member-card__cta">Lihat portofolio →</span>
+      </a>
+
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="section__header">
+      <span class="eyebrow">Hubungi Kami</span>
+      <h2 class="section__title">Contact</h2>
+      <p class="section__desc">Media sosial seluruh anggota kelompok.</p>
+    </div>
+
+    
+    <div class="contact__grid">
+      <div class="contact-card">
+        <div class="contact-card__avatar">
+        <img src="asset/foto.dewa.jpg" class="profile-img"></img>
+        </div>
+        <h3 class="contact-card__name">M. Wahyu Maulana Sadewa</h3>
+        <div class="contact-card__links">
+          <a href="https://www.instagram.com/sdeewaa_/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://linkedin.com/in/username1https://www.linkedin.com/in/m-wahyu-maulana-sadewa-983bab42a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/Sadewa12-cmk" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-card__avatar">
+          <img src="asset/foto.ali.jpg" class="profile-img"></img>
+        </div>
+        <h3 class="contact-card__name">Muhammad Ali Musthofa</h3>
+        <div class="contact-card__links">
+          <a href="https://www.instagram.com/_mstvyn.27/" target="_blank" rel="noopener">Instagram</a>
+          <a href=" https://www.linkedin.com/in/lrf-monza-undefined-439821411?trk=contact-info" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/Ali-Musthofa05" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-card__avatar">
+          <img src="asset/foto.althafa.jpg" class="profile-img"></img>
+        </div>
+        <h3 class="contact-card__name">Althafa Hafizh M</h3>
+        <div class="contact-card__links">
+          <a href="https://www.instagram.com/aalltza_/" target="_blank" rel="noopener">Instagram</a>
+          <a href=" https://www.linkedin.com/in/altaa-hafizhhh-ba757a42b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/althafahafizh-alt" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-card__avatar">
+          <img src="asset/foto.dita.jpg" class="profile-img"></img>
+        </div>
+        <h3 class="contact-card__name">Dita Elwalidia</h3>
+        <div class="contact-card__links">
+          <a href="https://www.instagram.com/dthaelw/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/in/dita-elwalidia-bb14b542b/?skipRedirect=true" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/ditaelwalidia-beep" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-card__avatar">
+          <img src="asset/foto.marici.jpg" class="profile-img"></img>
+        </div>
+        <h3 class="contact-card__name">Marici Zada Eka Rahardja</h3>
+        <div class="contact-card__links">
+          <a href="https://www.instagram.com/marici.zada/" target="_blank" rel="noopener"></a>
+          <a href="https://www.linkedin.com/in/marici-zada-0aa2653bb?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/marici-zada" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-card__avatar">
+          <img src="asset/foto.ovi.jpg" class="profile-img"></img>
+        </div>
+        <h3 class="contact-card__name">Ovi Indri Primastya</h3>
+        <div class="contact-card__links">
+          <a href="https://www.instagram.com/_oviindrii/" target="_blank" rel="noopener">Instagram</a>
+          <a href=" https://www.linkedin.com/in/ovi-indri-primastya-86541b42b?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/Oviindrii" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-card__avatar">
+          <img src="asset/foto.pramesty.jpg" class="profile-img"></img>
+        </div>
+        <h3 class="contact-card__name">Pramesty Citra Meisya B</h3>
+        <div class="contact-card__links">
+          <a href="https://www.instagram.com/prstcm/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/in/citra-prmbil-abbaaa3a1?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/PramestyCitra" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 KOTLIN. Dibuat untuk keperluan penugasan &amp; dideploy dengan GitHub Pages.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
