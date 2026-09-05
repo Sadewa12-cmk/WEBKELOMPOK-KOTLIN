@@ -255,7 +255,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero__media {
-  flex: 0 1 380px;
+  flex: 0 1 auto;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-end;
   border: 2px solid var(--line);
@@ -275,7 +276,8 @@ a { color: inherit; text-decoration: none; }
   overflow: hidden;
   border: 1px solid var(--line);
   box-shadow: 0 24px 48px -24px rgba(19, 27, 46, 0.35);
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   aspect-ratio: 3 / 2;
 }
 
@@ -652,11 +654,13 @@ a { color: inherit; text-decoration: none; }
 
   .hero__media {
     justify-content: center;
+    width: 100%;
     order: -1;
   }
 
   .hero__photo-frame {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     aspect-ratio: 3 / 2;
   }
 
