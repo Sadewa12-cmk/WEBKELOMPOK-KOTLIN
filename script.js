@@ -7,7 +7,6 @@ if (navToggle && navMenu) {
     navToggle.setAttribute("aria-expanded", isOpen);
   });
 
-  // Tutup menu mobile setiap kali sebuah link diklik
   document.querySelectorAll(".nav-link").forEach((link) => {
     link.addEventListener("click", () => {
       navMenu.classList.remove("is-open");
